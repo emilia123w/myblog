@@ -48,10 +48,24 @@ h2{
 
 
 
-/*
-@media screen and (max-width: 700px)
+@media screen and (max-width: 750px){
+  h2{
+    font-size:18px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-gap: 5px;
+  }
+  header{
+    font-size:20px;
+  }
 
-@media screen and (max-width:750px)
+}
 
-@media screen and (max-width: 470px)
-*/
+
+@media screen and (max-width: 470px){
+  h2{
+    font-size:14px;
+  }
+}
