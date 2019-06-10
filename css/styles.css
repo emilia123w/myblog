@@ -35,6 +35,10 @@ img {
   border: solid white;
   border-radius: 5px;
   box-shadow: 5px 3px 3px grey;
+  font-family: 'Open Sans', sans-serif;
+}
+h2{
+  text-align: center;
 }
 
 .book:hover{
