@@ -1,3 +1,47 @@
+body {
+  background-color: #e1dee2;
+}
+
+header{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 20px;
+  border-bottom: solid;
+  margin-bottom:5px;
+}
+
+footer{
+  margin-top:20px;
+  border-top: solid;
+  padding:10px;
+  text-align: right;
+  color:#584d5b;
+}
+.part{
+  color: #9414b7;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 5px;
+}
+img {
+  width: 100%;
+}
+
+.book {
+  border: solid white;
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px grey;
+}
+
+.book:hover{
+  border-width: 5px;
+  border-color: #584d5b;
+}
+
 
 
 /*
