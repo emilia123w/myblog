@@ -1,5 +1,5 @@
 body {
-  /*background-color: #e1dee2;*/
+  /*background-color:  #e1dee2;*/
 }
 
 header{
@@ -44,9 +44,14 @@ h2{
 .book:hover{
   border-width: 5px;
   border-color: #584d5b;
+  cursor: pointer;
+
 }
 
+.blog {
+  display: none;
 
+}
 
 @media screen and (max-width: 750px){
   h2{
